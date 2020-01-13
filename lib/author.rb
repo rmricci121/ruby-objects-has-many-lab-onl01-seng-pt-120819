@@ -13,7 +13,7 @@ class Author
   end
   
   def posts
-    Post.select {|post| post.
+    Post.all.select {|post| post.artist = self}
   end
   
   def add_post_by_title(title)
