@@ -21,6 +21,7 @@ class Author
    add_post(title)
   end
   
+  def 
   
   
   
