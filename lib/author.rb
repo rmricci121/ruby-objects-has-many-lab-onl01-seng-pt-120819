@@ -13,7 +13,7 @@ class Author
   end
   
   def posts
-  
+    Post.select {|post| post.
   end
   
   def add_post_by_title(title)
